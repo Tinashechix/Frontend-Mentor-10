@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: -20px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      
+        <div class="hero-box1">
+          <div class="logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo">
+            </a>
+          </div>
+          <div class="hero-box1__icons">
+            <div class="icon">
+              <a href="#">
+                <img src="./images/icon-document.svg" alt="document">
+              </a>
+            </div>
+            <div class="icon">
+              <a href="#">
+                <img src="./images/icon-folder.svg" alt="folder">
+              </a>
+            </div>
+            <div class="icon">
+              <a href="#" download="some">
+                <img src="./images/icon-upload.svg" alt="upload">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-box2">
+          <p class="hero-box2__text">You’ve used <strong>815 GB</strong>  of your storage</p>
+          <div class="hero-range">
+            <input class="hero-range__input" value="815" type="range" id="storage" name="storage" min="0" max="1000">
+          </div>
+          <div class="hero-box2__info">
+            185 <strong>GB Left</strong> 
+          </div>
+        </div>
+      
+    </div>
+  </section> 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/hickkick" target="_blank">Roman Oli</a>.
+  </div>
+</body>
+</html>
